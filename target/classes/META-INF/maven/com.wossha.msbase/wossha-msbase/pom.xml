@@ -14,13 +14,11 @@
 </repositories>
 
 <dependencies>
-	<!-- https://mvnrepository.com/artifact/com.fasterxml.uuid/java-uuid-generator -->
-	<!-- https://github.com/cowtowncoder/java-uuid-generator -->
 	<dependency>
-	    <groupId>com.fasterxml.uuid</groupId>
-	    <artifactId>java-uuid-generator</artifactId>
-	    <version>3.1.5</version>
-	</dependency>
+         <groupId>com.wossha.jsonEvents</groupId>
+         <artifactId>wossha-jsonEvents</artifactId>
+         <version>0.0.1-SNAPSHOT</version>
+     </dependency>
 </dependencies>
   
 </project>

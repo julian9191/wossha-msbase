@@ -1,4 +1,4 @@
-package com.wossha.msbase.controllers.commands;
+package com.wossha.msbase.commands;
 
 public class CommandModel {
 	private String commandName;
