@@ -8,8 +8,15 @@ import com.wossha.json.events.events.api.Event;
 public class CommandResult {
 	
 	private String message;
+	private Object response;
 	private List<Event> events;
 	
+	public CommandResult(String message, Object response, List<Event> events) {
+		this.message = message;
+		this.response = response;
+		this.events = events;
+	}
+
 	public CommandResult(String message, List<Event> events) {
 		this.message = message;
 		this.events = events;
@@ -43,6 +50,14 @@ public class CommandResult {
 	public void addEvent(Event event) {
 		events.add(event);
 		
+	}
+
+	public Object getResponse() {
+		return response;
+	}
+
+	public void setResponse(Object response) {
+		this.response = response;
 	}
 
 }
